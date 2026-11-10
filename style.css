@@ -9,7 +9,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #95a5e9 0%, #2a153f 100%);
     font-family: 'Arial', sans-serif;
 }
 
@@ -17,13 +17,13 @@ body {
     background: white;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 10px 30px rgba(226, 223, 223, 0.3);
     width: 320px;
 }
 
 .display {
-    background: #222;
-    color: #fff;
+    background: #fff;
+    color: hsl(339, 100%, 85%);
     font-size: 2em;
     padding: 20px;
     text-align: right;
@@ -43,7 +43,7 @@ button {
     padding: 20px;
     font-size: 1.2em;
     border: none;
-    background: #f0f0f0;
+    background: #ffffff;
     border-radius: 5px;
     cursor: pointer;
     transition: all 0.3s;
@@ -58,13 +58,13 @@ button:active {
 }
 
 .equals {
-    background: #667eea;
+    background: #f83f8c;
     color: white;
     grid-row: span 2;
 }
 
 .equals:hover {
-    background: #5568d3;
+    background: #f83f8c;
 }
 
 .zero {
